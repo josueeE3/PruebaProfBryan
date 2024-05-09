@@ -1,5 +1,6 @@
 package aplicacion.josuehernandez.emulador_20230357_josue
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -20,7 +21,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val btnIngresar = findViewById<Button>(R.id.btnLogin)
         btnIngresar.setOnClickListener {
-            val menu = intent(this,MainActivity::class.java)
+            val menu = Intent(this,MainActivity::class.java)
             startActivity(menu)
         }
     }
