@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Emulador_20230357_Josue</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Informacion</string>
+    <string name="title_navigation_contactanos">Contactanos</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

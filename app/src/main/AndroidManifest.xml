@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Emulador_20230357_Josue"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
